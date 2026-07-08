@@ -1,46 +1,131 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code warriors</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <!-- Section hero partie 1 et 2 -->
-<header>
-    <nav>
-        <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#articles">Articles</a></li>
-            <li><a href="#galerie">Galerie</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-        </ul>
-    </nav>
-</header>
 
-<main>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code warriors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Section hero partie 1 et 2 -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#galerie">Galerie</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
     <section id="accueil">
-    <!-- met ton code ici -->
+      <!-- met ton code ici -->
     </section>
-    
+
     <section id="articles">
-    <!-- 
+      <!-- 
     met ton code ici -->
     </section>
-    
-    <section id="galerie">
-    <!-- met ton code ici -->
-    </section>
-    
-    <section id="contacts">
-    <!-- met ton code ici -->
-    </section>
-</main>
 
-<footer>
-<!-- met ton code ici -->
-</footer>
+    <section id="galerie">
+      <!-- met ton code ici -->
+    </section>
+
+    <section id="contacts">
+      <h2>Nous contacter</h2>
+      <div class="contacts-wrapper">
+        <!-- Left -->
+        <div class="contacts-left">
+          <div class="contacts-left-wrapper">
+            <div class="contacts-left-item">
+              <h4 class="contacts-left-item__title">
+                Notre équipe amicale est là pour vous aider.
+                exemple@ecommerce.com
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contacts-left-item__logo">
+                  <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                </svg>
+              </h4>
+              <p class="contacts-left-item__description">
+                Notre équipe amicale est là pour vous aider.
+              </p>
+              <span class="contacts-left-item__meta">
+                exemple@ecommerce.com
+              </span>
+            </div>
+            <!--  -->
+            <div class="contacts-left-item">
+              <h4 class="contacts-left-item__title">
+                Bureaux
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="contacts-left-item__logo">
+                  <path
+                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </h4>
+              <p class="contacts-left-item__description">
+                Venez dire bonjour à notre siège social
+              </p>
+              <span class="contacts-left-item__meta">
+                Centre ville, république du congo
+              </span>
+            </div>
+            <!--  -->
+            <div class="contacts-left-item">
+              <h4 class="contacts-left-item__title">
+                Téléphone
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="contacts-left-item__logo">
+                  <path
+                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
+                </svg>
+              </h4>
+              <p class="contacts-left-item__description">
+                Du lundi au vendredi de 8h à 5h
+              </p>
+              <span class="contacts-left-item__meta">
+                +242 06 002 02 01
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Right -->
+        <div class="contacts-right">
+          <h2 class="contacts-right__title">Entrez en compte avec nous</h2>
+          <p class="contacts-right__description">
+            Vous pouvez nous joindre à tout moment via exemple@ecommerce.com
+          </p>
+          <form>
+            <fieldset class="form-group">
+              <legend aria-hidden="true">
+                Vous pouvez nous joindre à tout moment via exemple@ecommerce.com
+              </legend>
+              <input class="form-item" type="text" placeholder="votre nom">
+              <input class="form-item" type="email" placeholder="votre@email.com">
+              <input class="form-item" type="number" placeholder="votre numero de téléphone">
+              <textarea class="form-item" name="message" id="message" placeholder=""></textarea>
+              <button class="form-button" type="submit" aria-label="soumettre">
+                soumettre
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- met ton code ici -->
+  </footer>
 
 </body>
+
 </html>
